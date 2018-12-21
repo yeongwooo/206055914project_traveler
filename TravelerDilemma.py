@@ -40,7 +40,7 @@ class player:
     # 플레이어가 제시할 금액을 입력받음, 1~100 사이의 금액, 초과하면 에러메세지 띄움
     def setNum(self, num):
        self.num = int(input("제시금액:"))
-       if self.num not in range(1-101):
+       if self.num not in range(101):
            print("제시금액의 범위를 초과하였습니다.\n 다시 입력하세요.")
            self.num = int(input("제시금액:"))
 
